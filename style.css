@@ -1,0 +1,128 @@
+@media (min-width: 451px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        margin: 0;
+        background-color: FFB500; 
+    }
+    header{
+        height:160px;
+        background-color: FFB500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    input{
+        height: 50px;
+    }
+    footer{
+        background-color: FFB500; 
+    }
+    fieldset{
+        min-height: 400px;
+        border: none;
+        display: block;
+        margin:auto;
+        background-color: white;
+    }
+    .img-resultat{
+        margin-top: 20px;
+        width: 50%;
+    }
+    .entete{
+        display: grid;
+        justify-content: center;
+    }
+    figcaption{
+        font-weight: bold;
+        font-size: 11px;
+    }
+    ul{
+        width: 50%;
+        float: right;
+        margin-top: 20px;
+    }
+    h1{
+        margin: 0;
+    }
+    footer{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        font-size: 12px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }  
+}
+
+@media (max-width: 450px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        margin: 0;
+        background-color: FFB500;
+    }
+    header{
+        height:160px;
+        background-color: FFB500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    input{
+        height: 50px;
+    }
+    footer{
+        background-color: FFB500; 
+        margin-bottom: 0px;
+    }
+    fieldset{
+        min-height: 400px;
+        margin:0;
+        border: none;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .img-resultat{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .entete{
+        display: grid;
+        justify-content: center;
+    }
+    figcaption{
+        font-weight: bold;
+        font-size: 11px;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    h1{
+        margin: 0;
+    }
+    footer{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        font-size: 11px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }    
+}
