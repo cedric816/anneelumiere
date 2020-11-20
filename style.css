@@ -1,0 +1,85 @@
+/*---------------------*/
+/*-------GENERAL-------*/
+/*---------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: FFB500;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+fieldset{
+    background-image: url(images/clap.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+@media (min-width: 500px){
+    ul{
+        width: 70%;
+        padding: 20px;
+    }
+    fieldset{
+        display: flex;
+        text-align: left;
+    }
+}
+
+/*---------------------*/
+/*-------LAYOUT-------*/
+/*---------------------*/
+.l-header{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l-main{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.l-footer{
+    height: 10%;
+    font-size: 9px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+/*---------------------*/
+/*-------MODULES-------*/
+/*---------------------*/
+.img-header{
+    height: 50%;
+}
+.img-resultat{
+    width: 70%;
+}
+@media (min-width:500px){
+    .img-resultat{
+        width: 300px;
+        padding: 20px;
+    }
+}
+ 
+
+
+
+
+
+
